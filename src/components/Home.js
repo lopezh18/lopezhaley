@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
-import './stylesheets/home.css'
+import React, { Component } from 'react';
+import './stylesheets/home.css';
+import Typewriter from 'typewriter-effect';
 
 export default class Home extends Component {
   render() {
@@ -18,9 +19,11 @@ export default class Home extends Component {
         </div>
         <div className='details-container'>
           <div className='details'>
-            <p>
-              Software Engineer
-          </p>
+            <Typewriter options={{
+              strings: ['Software Engineer.', 'Web Developer.', 'Fullstack Engineer.', 'React Developer.'],
+              autoStart: true,
+              loop: true
+            }} />
           </div>
         </div>
       </div>

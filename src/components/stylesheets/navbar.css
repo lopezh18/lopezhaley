@@ -1,0 +1,23 @@
+a{
+  text-decoration: none;
+  color: black;
+  margin: 2px 7px;
+  font-family: 'Lora', serif;  font-size: larger;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.nav-link.active{
+  text-decoration: underline;
+}
+
+a:hover{
+  cursor: pointer
+}
+
+nav{
+  padding: 7px;
+  height: 7vh;
+  text-align: center;
+}
