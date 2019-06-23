@@ -6,9 +6,9 @@ export default class NavBar extends Component {
   render() {
     return (
       <div className="navbar navbar-expand-lg navbar-white bg-white">
-        <NavLink className="navbar-brand">HL</NavLink>
+        <NavLink className="navbar-brand" exact to='/'>HL</NavLink>
         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
+          <i className="fas fa-bars"></i>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
