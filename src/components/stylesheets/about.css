@@ -1,3 +1,47 @@
 .portrait{
-  height: 75vh;
+  height: 50vh;
+  margin: 15px;
+}
+
+.about-container{
+  padding: 0;
+  margin: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; 
+  align-content: space-between;
+}
+
+.greeting{
+  font-size: 80px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.rectangle1{
+  background-image: url('../../images/succulents.jpg');
+  background-position: top;
+  background-size: cover;
+  transform: rotate(-90deg);
+  /* transform-origin: 50% 30%; */
+}
+
+.about-text{
+  font-size: 20px;
+}
+
+.rectangle1{
+  height: 100px;
+  width: 80vh;
+}
+
+.about-info{
+  margin: 15px;
+  align-self: center;
+  width: 610px;
+}
+
+a:hover{
+  color: #62aa3d;
 }
