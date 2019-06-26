@@ -6,11 +6,12 @@ export default class Home extends Component {
   render() {
     return (
       <div className='home'>
+        <div className='element-container'>
         <div className='name-container'>
-          <div className='name'>
+          <div className='name first-three'>
             HAL
           </div>
-          <div className='name'>
+          <div className='name last-two'>
             EY
             <div className='last-name'>
               Lopez
@@ -25,6 +26,7 @@ export default class Home extends Component {
               loop: true
             }} />
           </div>
+        </div>
         </div>
       </div>
     )

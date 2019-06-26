@@ -3,14 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .home{
   height: 100vh;
   background-image: url('../../images/roses.jpg');
   background-position: center;
   background-size: cover;
   color: white; 
-  position: relative;
   text-align: center;
+}
+
+.element-container{
+  height: 90vh;
+  display:flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+}
+
+.name-container{
+  top: 50%;
+  left: 40%;
+  /* position: fixed; */
+  align-self: flex-end;
+  transform: translate(-50%, -50%);
 }
 
 .name{
@@ -25,20 +41,20 @@
   transform-origin: 25% 30%;
 }
 
-.name-container{
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  transform: translate(-50%, -50%);
+.first-three{
+  display: inline-block;
 }
 
 .details-container{
-  background-color: rgb(17, 17, 17);
-  opacity: .8;
+  top: 50%;
+  height: 255px;
 }
 
 .details{
   font-family: 'Playfair Display', serif;  
   font-size: 35px;
   padding: 20px;
+  background-color: rgb(17, 17, 17);
+  opacity: .8;
+  width: 360px;
 }
