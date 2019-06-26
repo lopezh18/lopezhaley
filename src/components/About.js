@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import portrait from '../images/portrait.jpeg'
+import portrait from '../images/polaroid.png'
 import './stylesheets/about.css'
 
 export default class About extends Component {
@@ -11,7 +11,9 @@ export default class About extends Component {
           <div className='about-info'>
             <p className='greeting'>Hello</p>
             <p className='about-text'>I am a Bay Area native looking for an opportunity to make global impact through an engineering role. I am proficient in a wide range of web technologies: Node, Express, Python, SQL, React, and more. For more details about my experience, click here. </p> </div>
-          <img className='portrait image-fluid' src={portrait} alt='portrait' height="400" width="300" />
+          <div>
+            <img className='portrait image-fluid' src={portrait} alt='portrait' height="400" width="300" />
+          </div>
           <div className='about-icons'>
             <a href='mailto:haleylopez95@gmail.com'>
               <i className="far fa-envelope fa-lg mb-4"></i>
