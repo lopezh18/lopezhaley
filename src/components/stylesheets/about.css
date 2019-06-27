@@ -5,13 +5,19 @@
   background-size: contain;
   padding: 0;
   margin: 20px 20px 0px;
-  height: 100vh;
+  height: calc(100% - 60px);
   display: flex;
   justify-content: center;
   text-align: center;
-  align-items: baseline; 
+  align-items: center; 
   align-content: space-between;
   flex-flow: row wrap;
+}
+
+.about-content{
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
 }
 
 .portrait{
@@ -30,6 +36,10 @@
 }
 
 .about-text{
+  font-size: 1.3em;
+}
+
+.about-text-anchor{
   font-size: 1.3em;
 }
 

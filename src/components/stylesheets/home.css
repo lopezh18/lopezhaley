@@ -22,11 +22,7 @@
 }
 
 .name-container{
-  top: 50%;
-  left: 40%;
-  /* position: fixed; */
-  align-self: flex-end;
-  transform: translate(-50%, -50%);
+  margin: 20px;
 }
 
 .name{
@@ -45,11 +41,6 @@
   display: inline-block;
 }
 
-.details-container{
-  top: 50%;
-  height: 255px;
-}
-
 .details{
   font-family: 'Playfair Display', serif;  
   font-size: 35px;
@@ -57,4 +48,5 @@
   background-color: rgb(17, 17, 17);
   opacity: .8;
   width: 360px;
+  margin: 20px;
 }

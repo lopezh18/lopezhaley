@@ -7,26 +7,27 @@ export default class Home extends Component {
     return (
       <div className='home'>
         <div className='element-container'>
-        <div className='name-container'>
-          <div className='name first-three'>
-            HAL
+
+          <div className='name-container'>
+            <div className='name first-three'>
+              HAL
           </div>
-          <div className='name last-two'>
-            EY
+            <div className='name last-two'>
+              EY
             <div className='last-name'>
-              Lopez
+                Lopez
+            </div>
             </div>
           </div>
-        </div>
-        <div className='details-container'>
           <div className='details'>
             <Typewriter options={{
-              strings: ['Software Engineer.', 'Web Developer.', 'Fullstack Engineer.', 'React Developer.'],
+              strings: ['Software Engineer.', 'React','Node', 'Python', 'SQL'],
               autoStart: true,
               loop: true
             }} />
           </div>
-        </div>
+          <div className='details-container'>
+          </div>
         </div>
       </div>
     )
