@@ -1,46 +1,89 @@
 .about-container{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  flex-flow: row wrap;
+  background-color: purple;
   background-image: url('../../images/flowers.jpeg');
   background-position: 5% 75%;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 0;
-  margin: 20px 20px 0px;
-  height: calc(100% - 60px);
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center; 
-  align-content: space-between;
-  flex-flow: row wrap;
 }
 
+/* .rectangle{
+  height: 100vh;
+  width: 100px;
+  background-image: url('../../images/flowers.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+ 
+ /* .rectangle{
+  background-image: url('../../images/flowers.jpeg');
+  background-position: 5% 75%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color:palegreen; 
+} */
+ 
 .about-content{
   display: flex;
+  flex-direction: column;
   min-height: 100vh;
+  justify-content: center;
   align-items: center;
+  background-color: orangered;
+}
+
+.about-portrait-info{
+  display: flex;
+  align-items: center;
+  background-color: greenyellow;
 }
 
 .portrait{
-  margin: 15px;
+  background-image: url('../../images/portrait.jpeg');
+  height: 400px;
+  width: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .about-info{
-  margin: 15px;
   width: 610px;
 }
 
 .greeting{
-  font-size: 6em;
+  font-size: 5rem;
   font-family: 'Dancing Script', cursive;
   margin-bottom: 0;
+  /* background-color: aqua; */
+}
+
+.about-icon{
+  text-decoration: none;
+  color: black;
+}
+
+.about-icons{
+  /* background-color: orange; */
+  margin: 5px;
 }
 
 .about-text{
-  font-size: 1.3em;
+  font-size: 1rem;
+  /* background-color: pink; */
+  font-family: 'Lora', serif;
 }
 
 .about-text-anchor{
-  font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+  display: inline;
 }
 
 a:hover{

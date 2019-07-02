@@ -1,4 +1,10 @@
-a{
+.navbar-brand{
+  text-decoration: none;
+  color: black;
+  font-family: 'Lora', serif; 
+}
+
+.nav-link{
   text-decoration: none;
   color: black;
   margin: 2px 7px;
@@ -20,4 +26,15 @@ nav{
   padding: 7px;
   height: 7vh;
   text-align: center;
+}
+
+@media only screen and (max-width: 320px){
+  .nav-link, .fa-bars, .navbar-brand{
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 410px){
+  .nav-link, .navbar-brand{
+    font-size: 15px;
+  }
 }
