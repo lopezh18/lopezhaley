@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import './stylesheets/navbar.css'
 
 export default class NavBar extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       navbarExpanded: false
@@ -12,7 +12,7 @@ export default class NavBar extends Component {
 
   toggleNav = () => {
     this.setState({
-      navbarExpanded:!this.state.navbarExpanded
+      navbarExpanded: !this.state.navbarExpanded
     })
   }
   render() {
@@ -25,14 +25,14 @@ export default class NavBar extends Component {
 
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav mr-auto ml-auto mt-2 mt-lg-0">
-            <li className="nav-item active">
-              <NavLink className="nav-link" exact to='/' onClick={this.toggleNav}>Home <span className="sr-only">(current)</span></NavLink>
-            </li>
             <li className="nav-item">
               <NavLink className="nav-link" exact to='/about' onClick={this.toggleNav}>About</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" exact to='/work' onClick={this.toggleNav}>Work</NavLink>
+              <NavLink className="nav-link" exact to='/projects' onClick={this.toggleNav}>Projects</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" exact to='/contact' onClick={this.toggleNav}>Contact</NavLink>
             </li>
           </ul>
         </div>
