@@ -28,13 +28,20 @@ nav{
   text-align: center;
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 1024px){
   .nav-link, .fa-bars, .navbar-brand{
-    font-size: 15px;
+    font-size: 30px;
   }
 }
-@media only screen and (max-width: 410px){
-  .nav-link, .navbar-brand{
+
+@media only screen and (max-width: 768px){
+  .nav-link, .fa-bars, .navbar-brand{
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 414px){
+  .nav-link, .fa-bars, .navbar-brand{
     font-size: 15px;
   }
 }
