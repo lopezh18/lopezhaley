@@ -3,5 +3,43 @@
   background-image: url('../../images/poppies.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;  
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects{
+  display: flex;
+  justify-content: center;  
+  align-content: center;
+}
+
+.project-card{
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 275px;
+  padding: 5px;
+  transition: height .5s;
+}
+
+.project-card:hover{
+  height: 300px;
+  cursor: pointer;
+}
+
+.jobly{
+  background-image: url('../../images/jobly.png');
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
+  height: 155px;
+  width: 300px;
+}
+
+.project-content{
+  margin: auto;
 }
