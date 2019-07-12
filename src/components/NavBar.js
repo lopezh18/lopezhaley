@@ -32,7 +32,7 @@ export default class NavBar extends Component {
               <NavLink className="nav-link" exact to='/projects' onClick={this.toggleNav}>Projects</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" exact to='/contact' onClick={this.toggleNav}>Contact</NavLink>
+              <a className="nav-link" href='mailto:haleylopez95@gmail.com' onClick={this.toggleNav}>Contact</a>
             </li>
           </ul>
         </div>
