@@ -21,15 +21,54 @@
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  height: 275px;
+  height: 400px;
   padding: 5px;
-  transition: height .5s;
+  transition: height .7s;
   margin-right: 10px;
 }
 
 .project-card:hover{
-  height: 290px;
+  height: 420px;
   cursor: pointer;
+}
+
+.project-card-details{
+  font-size: 12px;
+  width: 250px;
+}
+
+
+.project-card-buttons{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-card-button{
+  padding: 5px;
+  background-color: rgb(235, 235, 235);
+  transition: background-color 0.5s ease;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.project-card-button:hover{
+  background-color: rgb(211, 211, 211);
+}
+
+
+.project-card-github{
+  text-decoration: none;
+  color: black;
+}
+
+.project-card-github:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.project-card-preview{
+  border: none;
 }
 
 .project-tech{
@@ -50,20 +89,32 @@
 
 .jobly{
   background-image: url('../../images/jobly.png');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 155px;
   width: 300px;
+  margin-bottom: 10px;
 }
 
 .warbler{
   background-image: url('../../images/warbler.png');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 155px;
   width: 300px;
+  margin-bottom: 10px;
+}
+
+.gifsmos{
+  background-image: url('../../images/GIFsmos.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 155px;
+  width: 300px;
+  margin-bottom: 10px;
 }
 
 .project-content{

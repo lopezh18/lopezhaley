@@ -66,7 +66,7 @@ a:hover{
   color: #62aa3d;
 }
 
-@media only screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){
   .about-content{
     flex-direction: column;
     padding: 20px 15px;
