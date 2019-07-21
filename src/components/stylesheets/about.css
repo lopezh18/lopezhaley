@@ -108,7 +108,7 @@ a:hover{
   }
 }
 
-@media only screen and (max-width: 414px){
+@media screen and (max-width: 414px){
   .about-content{
     flex-direction: column;
     padding: 20px 10px;
@@ -141,7 +141,7 @@ a:hover{
   }
 }
 
-@media only screen and (max-width: 360px){
+@media screen and (max-width: 360px){
   .about-content{
     flex-direction: column;
   }
