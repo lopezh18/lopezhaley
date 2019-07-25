@@ -121,3 +121,13 @@
 .project-content{
   margin: auto;
 }
+
+@media only screen and (max-width: 1199px){
+  .project-card{
+    margin-top: 15px;
+  }
+
+  .yes{
+    margin-bottom: 15px;
+  }
+}

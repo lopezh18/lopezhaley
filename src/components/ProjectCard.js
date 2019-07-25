@@ -31,7 +31,7 @@ export default class ProjectCard extends Component {
         </div>
     )
     return (
-      <div className='project-card'>
+      <div className={`project-card ${this.props.bottom}`}>
         <div className={this.props.title.toLowerCase()}>
         </div>
         <div className='project-content'>

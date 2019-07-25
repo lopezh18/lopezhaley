@@ -111,7 +111,7 @@ a:hover{
 
 /* 414px */
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 1163px){
   .about-content{
     flex-direction: column;
     padding: 20px 10px;
