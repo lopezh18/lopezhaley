@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import ProjectTech from '../components/ProjectTech'
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import GIFsmosDemo from '../images/Gifsmos-demo.mp4'
+import { Button, Modal, ModalHeader, ModalBody} from 'reactstrap';
 
 
 export default class ProjectCard extends Component {
@@ -26,8 +25,8 @@ export default class ProjectCard extends Component {
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>{this.props.title} Preview</ModalHeader>
           <ModalBody>
-            <video className='demo-video' autoPlay width="400" height="400">
-              <source src={GIFsmosDemo} type="video/mp4"/>
+             <video className='demo-video' autoPlay width="400" height="400">
+              <source src={this.props.video} type="video/mp4"/>
                   Your browser does not support the video tag.  
               </video>
           </ModalBody>
