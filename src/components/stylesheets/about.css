@@ -66,7 +66,7 @@ a:hover{
   color: #62aa3d;
 }
 
-/* @media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px){
   .about-content{
     flex-direction: column;
     padding: 20px 15px;
@@ -79,39 +79,39 @@ a:hover{
   }
 
   .about-info{
-    width: 50rem;
+    width: 45rem;
     order: 1;
   }
   
   .greeting{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 'Frank Ruhl Libre', serif; 
   }
 
   .about-text{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Lora', serif;
   }
 
   .portrait{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
   }
-} */
+}
 
-/* @media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
   .about-info{
-    width: 40rem;
+    width: 20rem;
   }
 
   .about-text{
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
-} */
+}
 
 /* 414px */
 
-@media only screen and (max-width: 1163px){
+@media only screen and (max-width: 480px){
   .about-content{
     flex-direction: column;
     padding: 20px 10px;
@@ -144,7 +144,7 @@ a:hover{
   }
 }
 
-/* @media only screen and (max-width: 360px){
+@media only screen and (max-width: 360px){
   .about-content{
     flex-direction: column;
   }
@@ -173,4 +173,4 @@ a:hover{
     height: 150px;
     width: 200px;
   }
-} */
+}
