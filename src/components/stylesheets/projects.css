@@ -72,6 +72,15 @@
   border: none;
 }
 
+.modal-body{
+  text-align: center;
+}
+
+.demo-video{
+  text-align: center;
+  width: 450px;
+}
+
 .project-tech{
   display: flex;
   flex-wrap: wrap;

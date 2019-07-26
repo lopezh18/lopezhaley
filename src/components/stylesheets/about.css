@@ -57,13 +57,9 @@
 }
 
 .about-text-anchor{
-  text-decoration: none;
-  color: black;
-  display: inline;
-}
-
-a:hover{
+  text-decoration: underline;
   color: #62aa3d;
+  display: inline;
 }
 
 @media only screen and (max-width: 1024px){
