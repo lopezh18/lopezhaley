@@ -19,23 +19,15 @@ export default class ProjectCard extends Component {
     }));
   }
   render() {
-
-    let movie = 
-     ( <video className='demo-video' autoPlay width="400" height="400">
-      <source src={this.props.video} type="video/mp4"/>
-          Your browser does not support the video tag.  
-      </video>)
-
-      if(!this.props.video){
-        movie = <p>Video coming soon</p>
-      }
-    
     let projectPreview = (
       <div>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>{this.props.title} Preview</ModalHeader>
           <ModalBody>
-            {movie}
+            <video className='demo-video' autoPlay width="400" height="400">
+              <source src={this.props.video} type="video/mp4"/>
+              Your browser does not support the video tag.  
+        </video>
           </ModalBody>
           </Modal>
         </div>
