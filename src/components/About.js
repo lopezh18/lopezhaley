@@ -10,7 +10,9 @@ export default class About extends Component {
           <div className='about-info'>
             <h1 className='greeting'>Hello, I'm Haley.</h1>
             <p className='about-text'>I am a Bay Area native looking for an opportunity to make social impact through technology.
-            I am proficient in a wide range of web technologies: Node, Javascript(ES6+), SQL, React, and more. For more details about my experience, click <a className='about-text-anchor' href={resume} target='_blank'>here</a>. </p>
+            I am proficient in a wide range of web technologies: Node, Javascript(ES6+), SQL, React, and more. For more details about my experience, click <a className='about-text-anchor'
+            href={resume} target='_blank'
+            rel="noopener noreferrer">here</a>. </p>
           </div>
           <div className='about-portrait-info'>
             <div className='portrait'>
@@ -34,7 +36,6 @@ export default class About extends Component {
     )
   }
 }
-
 
 {/* <p className='about-text'>I am a Bay Area native looking for an opportunity to make social impact through technology. Technically, I built my first basic web application in 2012, but I didn't think I could pursue engineering fulltime so pursued a different route in higher education. After graduating with a B.S. in busines, I went straight into nonprofit development where I learned there were many other ways to impact communities and chose to start learning HTML, CSS, and Javascript. </p> */}
 {/* <p>I was able to get into Rithm School, a bootcamp in San Francisco and learned a bunch of technologies and problem solving techniques. While at Rithm, I became proficient in a wide range of web technologies: Node, Express, Python, SQL, React, and more. For more details about my experience, click <a className='about-text-anchor' href={resume}>here</a>. </p> */}
