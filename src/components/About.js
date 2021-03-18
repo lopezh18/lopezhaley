@@ -10,7 +10,7 @@ export default class About extends Component {
           <div className='about-info'>
             <h1 className='greeting'>Hello, I'm Haley.</h1>
             <p className='about-text'>I am a Bay Area native looking for an opportunity to make social impact through technology.
-            I am proficient in a wide range of web technologies: Node, Javascript(ES6+), SQL, React, and more. For more details about my experience, click <a className='about-text-anchor' href={resume}>here</a>. </p>
+            I am proficient in a wide range of web technologies: Node, Javascript(ES6+), SQL, React, and more. For more details about my experience, click <a className='about-text-anchor' href={resume} target='_blank'>here</a>. </p>
           </div>
           <div className='about-portrait-info'>
             <div className='portrait'>
