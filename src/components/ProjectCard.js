@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import ProjectTech from '../components/ProjectTech'
-import { Button, Modal, ModalHeader, ModalBody} from 'reactstrap';
-
+import { Modal, ModalHeader, ModalBody} from 'reactstrap';
 
 export default class ProjectCard extends Component {
   constructor(props) {
