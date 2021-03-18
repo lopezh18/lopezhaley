@@ -8,8 +8,8 @@ export default class App extends Component {
   render() {
     return (
       <BrowserRouter>
-      <NavBar/>
-      <Routes/>
+        <NavBar/>
+        <Routes/>
       </BrowserRouter>
     )
   }

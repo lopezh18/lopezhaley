@@ -29,29 +29,29 @@ export default class ProjectCard extends Component {
         </video>
           </ModalBody>
           </Modal>
-        </div>
-          )
-          return (
+      </div>
+    )
+    return (
       <div className={`project-card ${this.props.bottom}`}>
-            <div className={this.props.title.toLowerCase()}>
-            </div>
-            <div className='project-content'>
-              <h5>{this.props.title}</h5>
-              <p className='project-card-details'> {this.props.content}</p>
-              <ProjectTech tech={this.props.tech} />
-              <div className='project-card-buttons'>
-                <a href={this.props.git} className='project-card-button project-card-github'>
-                  Github
+        <div className={this.props.title.toLowerCase()}>
+        </div>
+        <div className='project-content'>
+          <h5>{this.props.title}</h5>
+          <p className='project-card-details'> {this.props.content}</p>
+          <ProjectTech tech={this.props.tech} />
+          <div className='project-card-buttons'>
+            <a href={this.props.git} className='project-card-button project-card-github'>
+              Github
            </a>
 
-                <button className='project-card-button project-card-preview'
-                  onClick={this.toggle}>
-                  Preview
+            <button className='project-card-button project-card-preview'
+              onClick={this.toggle}>
+              Preview
             </button>
-              </div>
-            </div>
-            {projectPreview}
           </div>
-          )
-        }
-      }
+        </div>
+        {projectPreview}
+      </div>
+    )
+  }
+}
