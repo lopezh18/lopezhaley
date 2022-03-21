@@ -17,7 +17,7 @@ export default class Home extends Component {
               </div>
             <div className='details'>
               <Typewriter options={{
-                strings: ['Software Engineer.', 'React', 'Node', 'Accessibility', 'Redux', 'SQL'],
+                strings: ['Software Engineer', 'React', 'Node', 'Accessibility', 'Redux', 'SQL', 'JavaScript', 'TailwindCSS', 'Styled Components'],
                 autoStart: true,
                 loop: true
               }} />
